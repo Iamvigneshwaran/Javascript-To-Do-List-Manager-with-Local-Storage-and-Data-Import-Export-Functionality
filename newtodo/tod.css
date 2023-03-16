@@ -1,0 +1,74 @@
+
+#box {
+  margin: 0 auto; 
+  padding: 20px; 
+  text-align: center; 
+  border: 1px solid rgb(133, 14, 14); 
+  width: 50%; 
+  background-color: aqua;
+}
+
+#new-task {
+  width: 60%; 
+  padding: 10px; 
+  margin-right: 10px; 
+}
+
+#add-btn {
+  padding: 10px 20px; 
+  background-color: #4CAF50; 
+  color: rgb(240, 228, 228); 
+  border: none; 
+  cursor: pointer;
+}
+
+#add-btn:hover {
+  background-color: #3e8e41; 
+  
+}
+
+#task-filter {
+  padding: 10px; 
+  margin-right: 10px;
+}
+
+#ex{
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+}
+
+#ex:hover {
+  background-color: #3e8e41; 
+}
+
+#json-file-input{
+  display:none;
+}
+
+#import-btn{
+  padding: 10px 20px; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+}
+
+#import-btn:hover {
+  background-color: #3e8e41;
+}
+
+li {
+  margin-bottom: 10px; 
+}
+
+.complete {
+  text-decoration: line-through; 
+  color: #aaa;
+}
+
+.incomplete {
+  color: #333; 
+}

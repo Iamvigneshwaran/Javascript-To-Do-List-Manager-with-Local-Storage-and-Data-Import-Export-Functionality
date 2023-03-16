@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="tod.css">
+  </head>
+  <body>
+    <div id="box">
+    <h1>To-Do List</h1>
+    <input type="text" id="new-task" placeholder="Add new task...">
+    <button id="add-btn">Add</button>
+    <div>
+      <label for="task-filter">Filter:</label>
+      <select id="task-filter">
+        <option value="all">All</option>
+        <option value="complete">Complete</option>
+        <option value="incomplete">Incomplete</option>
+      </select>
+      <button id="ex">Export</button>
+
+      <input type="file" id="json-file-input">
+      <button id="import-btn">Import</button>
+      
+      
+    </div>
+    <ul id="task-list">
+    </ul>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
